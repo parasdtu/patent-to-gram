@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/patent-to-gram/static/css/main.e155e7f1.chunk.css",
+    "main.js": "/patent-to-gram/static/js/main.64d1983c.chunk.js",
+    "main.js.map": "/patent-to-gram/static/js/main.64d1983c.chunk.js.map",
+    "runtime-main.js": "/patent-to-gram/static/js/runtime-main.bf703db0.js",
+    "runtime-main.js.map": "/patent-to-gram/static/js/runtime-main.bf703db0.js.map",
+    "static/js/2.433ec340.chunk.js": "/patent-to-gram/static/js/2.433ec340.chunk.js",
+    "static/js/2.433ec340.chunk.js.map": "/patent-to-gram/static/js/2.433ec340.chunk.js.map",
+    "index.html": "/patent-to-gram/index.html",
+    "precache-manifest.4afd6c9d2e7e791053b6192319ce1a22.js": "/patent-to-gram/precache-manifest.4afd6c9d2e7e791053b6192319ce1a22.js",
+    "service-worker.js": "/patent-to-gram/service-worker.js",
+    "static/css/main.e155e7f1.chunk.css.map": "/patent-to-gram/static/css/main.e155e7f1.chunk.css.map",
+    "static/js/2.433ec340.chunk.js.LICENSE.txt": "/patent-to-gram/static/js/2.433ec340.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf703db0.js",
+    "static/js/2.433ec340.chunk.js",
+    "static/css/main.e155e7f1.chunk.css",
+    "static/js/main.64d1983c.chunk.js"
+  ]
+}

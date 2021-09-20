@@ -1,0 +1,60 @@
+.card{
+  margin: 20px auto 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 100%;
+  max-width: 320px;
+  background: white;
+  font-size: 12px;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.card-header{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.user-image{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.user-name{
+  text-align: left;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.time{
+  text-align: right;
+  width: 100%;
+  color: #ccc;
+}
+
+.card-content{
+  text-align: left;
+  padding: 10px;
+}
+
+.likes{
+  text-align: left;
+  font-weight: bold;
+}
+
+.hashtag{
+  color: #4a5279;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+hr{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.card:hover {
+  transform: scale(1.05);
+}

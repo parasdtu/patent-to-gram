@@ -1,0 +1,82 @@
+.spinner { 
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 8px solid #0c0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin 3s linear 3,
+             spin-end 3s ease-out 9s 1;
+}
+.spinner:after {
+  content: '';
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 6px solid #0c0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: counterspin 1.5s linear 6,
+             counterspin-end 1.5s ease-out 9s 1;
+}
+.spinner:before {
+  content: '+';
+  font-family: Arial,sans-serif;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0,204,0,1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  border: 4px solid #0c0;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  animation: inner-spin 1.5s linear 6,
+             inner-spin-end 1.5s ease-out 9s 1;
+}
+
+@keyframes spin { 
+  0%   { border-top-color: black; border-bottom-color: black; transform: rotate(0deg); }
+  60%  { border-top-color: grey; border-bottom-color: grey; }
+  90%  { border-top-color: #cc0; border-bottom-color: #cc0; transform: rotate(360deg); }
+  100% { border-top-color: black;  border-bottom-color: black; transform: rotate(0deg); }
+}
+
+@keyframes counterspin {
+  0%   { transform: rotate(0deg); border-top-color: #fff; border-bottom-color: #fff; }
+  100% { transform: rotate(-360deg); border-top-color: #fff; border-bottom-color: #fff; }
+}
+
+@keyframes inner-spin {
+  0%   { transform: rotate(0deg); border-top-color: #aaa; border-bottom-color: #aaa; color: rgba(0,0,0,0); }
+  100% { transform: rotate(360deg); border-top-color: #aaa; border-bottom-color: #aaa; color: rgba(0,0,0,0); }
+}
+
+@keyframes spin-end {
+  0%   { border-top-color: black; border-bottom-color: black; transform: rotate(0deg);  } 
+  60%   { border-top-color: #cc0; border-bottom-color: #cc0; }
+  100%   { border-top-color: black; border-bottom-color: black; transform: rotate(360deg); } 
+}
+
+@keyframes counterspin-end {
+  0%   { transform: rotate(0deg); border-top-color: #fff; border-bottom-color: #fff; }
+  100% { transform: rotate(-360deg); border-top-color: grey; border-bottom-color: grey; }
+}
+
+@keyframes inner-spin-end {
+  0%   { transform: rotate(0deg); border-top-color: #aaa; border-bottom-color: #aaa; color: rgba(0,0,0,0); }
+  100% { transform: rotate(360deg); border-top-color: grey; border-bottom-color: grey; color: rgba(0,204,0,1); }
+}
