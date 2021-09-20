@@ -154,7 +154,7 @@ footer {
 
 @media screen and (max-width: 698px ) {
   header, .profile, .gallery, footer {
-   width: calc(100% - 40px);
+   width: calc(185% - 40px);
   }
   .image-container {
     margin-right: 0px;
