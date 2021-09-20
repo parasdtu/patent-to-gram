@@ -3,10 +3,10 @@
 ###### Hosted on: https://patent-to-gram.herokuapp.com/
 ###### This website is built using ReactJs and NASA TechTransfer API ( an endpoint that provides structured, searchable developer access to NASA’s patents, software, and technology spinoff descriptions that have been curated to support technology transfer). 
 
-Some features this the Web App:
+Some features of this Web App:
 - Has a very simple and easy to navigate UI (similar to Instagram :)
 - Users can easily filter patents 
-- Users can like/unlike patents (we care about user's liking )
+- Users can like/unlike patents (we care about user's liking!)
 
 ***Spread some love and star mark this project <3.***
 
